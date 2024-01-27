@@ -112,7 +112,7 @@ export default function App() {
               </div>
 
               <div className='w-full h-[35vh] sm:h-[50vh] lg:h-[65vh]'>
-                <video autoPlay loop muted className="p-4 w-full h-full object-cover" src="./Vid-Port.mp4"></video>
+                <video autoPlay loop muted className="p-4 w-full h-full object-cover" src="./Vid-port.mp4"></video>
               </div>
             </div>
           </div>
