@@ -34,18 +34,18 @@ export default function App() {
             <p className="text-white text-1xl md:text-2xl mt-6">Coder | Web Developer</p>
             {/* -----------------------resume---------------------------- */}
             <div className="text-white  mt-20">
-              <a download className="px-8 py-3 md:text-[20px] mt-10 bg-indigo-600 rounded-[20px] md:rounded-[30px] md:mx-[120px] active:bg-indigo-700" href="./src/assets/Resume.pdf">Resume</a>
+              <a download className="px-8 py-3 md:text-[20px] mt-10 bg-indigo-600 rounded-[20px] md:rounded-[30px] md:mx-[120px] active:bg-indigo-700" href="./Resume.pdf">Resume</a>
               {/* ---------------------logo png----------------------- */}
               <div className="md:mx-[121px] mt-8 w-10 flex space-x-2">
-                <img onClick={() => openWebsite(linkedinUrl)} className="cursor-pointer" src="./src/assets/linkedin.png" alt="" />
-                <img onClick={() => openWebsite(instagramUrl)} className="cursor-pointer" src="./src/assets/instagram.png" alt="" />
-                <img onClick={() => openWebsite(githubUrl)} className="cursor-pointer" src="./src/assets/github.png" alt="" />
+                <img onClick={() => openWebsite(linkedinUrl)} className="cursor-pointer" src="./linkedin.png" alt="" />
+                <img onClick={() => openWebsite(instagramUrl)} className="cursor-pointer" src="./instagram.png" alt="" />
+                <img onClick={() => openWebsite(githubUrl)} className="cursor-pointer" src="./github.png" alt="" />
               </div>
             </div>
             {/* ------------------------ravi img-------------------- */}
           </div>
           <div >
-            <img className="w-full h-full object-cover" src='./src/assets/Ravi.jpg' alt="" />
+            <img className="w-full h-full object-cover" src='./Ravi.jpg' alt="" />
           </div>
         </div>
         {/* ---------------------------About------------------------ */}
@@ -97,7 +97,7 @@ export default function App() {
               </div>
 
               <div className='w-full h-[35vh] sm:h-[50vh] lg:h-[65vh]'>
-                <video autoPlay loop muted className="p-4 w-full h-full object-cover" src="./src/assets/Vid-Golf.mp4"></video>
+                <video autoPlay loop muted className="p-4 w-full h-full object-cover" src="./Vid-Golf.mp4"></video>
               </div>
 
             </div>
@@ -112,7 +112,7 @@ export default function App() {
               </div>
 
               <div className='w-full h-[35vh] sm:h-[50vh] lg:h-[65vh]'>
-                <video autoPlay loop muted className="p-4 w-full h-full object-cover" src="./src/assets/Vid-Port.mp4"></video>
+                <video autoPlay loop muted className="p-4 w-full h-full object-cover" src="./Vid-Port.mp4"></video>
               </div>
             </div>
           </div>
